@@ -30,3 +30,43 @@
 *.exe
 *.out
 *.app
+
+# Ignore all build directories
+build/
+install/
+log/
+
+# Ignore specific file types
+*.pyc
+*~
+
+# Ignore all log files
+*.log
+
+# Ignore backup files
+*.bak
+
+# Ignore all files ending with ~
+*~
+
+# Ignore Eclipse project files
+.project
+.cproject
+.settings/
+
+# Ignore VSCode files
+.vscode/
+
+# Ignore temporary files
+tmp/
+
+# Ignore Python virtual environment
+venv/
+*.venv/
+env/
+
+# Node directories
+node_modules/
+
+# DS_Store
+.DS_Store
