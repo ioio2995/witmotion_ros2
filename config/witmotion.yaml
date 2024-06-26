@@ -1,0 +1,14 @@
+witmotion_node:
+  ros__parameters:
+    port: /dev/ttyUSB1
+    baud_rate: 115200 # baud
+    update_rate: 50.0 # Hz
+    topic_name: /witmotion
+    frame_id: base_link
+    imu_linear_acceleration_covariance: [0.0364, 0.0, 0.0, 0.0, 0.0048, 0.0, 0.0, 0.0, 0.0796]
+    imu_angular_velocity_covariance: [0.0663, 0.0, 0.0, 0.0, 0.1453, 0.0, 0.0, 0.0, 0.0378]
+    imu_orientation_covariance: [0.0479, 0.0, 0.0, 0.0, 0.0207, 0.0, 0.0, 0.0, 0.0041]
+    imu_temperature_variance: 0.01829
+    magnetometer_covariance: [0.000000187123, 0.0, 0.0, 0.0, 0.000000105373, 0.0, 0.0, 0.0, 0.000000165816]
+    magnetometer_temperature_variance : 0.01829
+    barometer_variance : 0.001
